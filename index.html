@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <title>Image Carousel!</title>
+   <meta charset="windows-1252">
+   <script src="js/image-carousel.js"></script>
+
+   <script>
+      window.onload = function() {
+         imageCarousel.initModule(
+               document.getElementById("image-carousel"),
+               ["one.jpg", "two.jpg", "three.jpg"],
+               5000
+            );
+      }
+   </script>
+</head>
+
+<body>
+   <section id="image-carousel"/>
+</body>
+</html>
